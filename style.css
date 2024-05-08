@@ -31,7 +31,50 @@ main {
   width: 32%;
   min-height: 200px;
   margin-bottom: 20px;
+  position: relative;
 }
 .prodotto img {
   max-width: 100%;
+}
+.sconto {
+  background-color: red;
+  color: aliceblue;
+  position: absolute;
+  padding: 5px;
+  bottom: 0;
+  left: 10;
+}
+.altro {
+  background-color: green;
+  color: aliceblue;
+  position: absolute;
+  padding: 5px;
+  bottom: 0;
+  left: 10;
+}
+.cuore {
+  color: black;
+  font-size: 40px;
+}
+.cuore:hover {
+  color: red;
+}
+footer {
+  background-color: black;
+  color: aliceblue;
+}
+footer ul {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+}
+footer h3 {
+  margin-left: 40px;
+}
+.prodotto:hover {
+  background-image: url(4b.webp);
+}
+.footer {
+  display: flex;
+  gap: 650px;
 }
